@@ -1,0 +1,7 @@
+---
+v_profile_apache::apache::apache_vhost_servers: {
+  'v-web-prod.test.atix': {
+    port: 80,
+    docroot: '/var/www/v-web-prod'
+  },
+}

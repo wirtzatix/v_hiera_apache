@@ -1,0 +1,6 @@
+---
+classes:
+- v_profile_apache::apache
+
+v_profile_apache::apache::default_vhost: false
+...
